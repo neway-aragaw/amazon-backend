@@ -1,49 +1,45 @@
-.nav{
+.nav {
     margin: 0 20px;
     width: 100%;
-    /* max-width: 1500px; */
     background-color: #363333;
-    /* display: none; */
-}
-.nav__listing{
-    position: absolute;
-        top: 40px;
-        left: 0;
-        height: 28px;
-        width: 100%;
-        margin: 10px;
-        background-color: aqua;
-}
-.nav__listing ul{
-    position: absolute;
+    padding: 8px 0;
+  }
   
-    left: 0;
-    height: 28px;
+  .nav__listing {
     width: 100%;
-    /* vertical-align: middle; */
-    font-size: 81%;
-    align-items: center;
-    font-weight: 400;
+    background-color: #363333;
+    position: relative;
+  }
+  
+  .nav__listing ul {
+    height: 40px;
+    width: 100%;
     list-style: none;
-    /* position: absolute; */
-    /* top: 50px; */
-    /* height: 30px; */
-    background-color:#363333;
     display: flex;
-    justify-content: space-between;
-    /* display: none; */
-    /* margin-bottom: 20px; */
-   
-}
-.Navlist ul{
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 15px; /* Increased from 81% to 15px */
+    font-weight: 500;
+    color: white;
+    padding: 0 10px;
+    margin: 0;
+  }
+  
+  .Navlist ul {
     width: 50%;
-}
-.Navlist a{
+  }
+  
+  .Navlist a {
     color: rgb(251, 243, 243);
-    font-weight: 400;
+    font-weight: 500;
     text-decoration: none;
-}
-.Navlist a:hover{
-    text-decoration: none;
+    padding: 10px;
+    font-size: 18px; /* Bigger */
+    display: inline-block;
+  }
+  
+  .Navlist a:hover {
     opacity: 0.8;
-}
+    text-decoration: underline;
+  }
+  

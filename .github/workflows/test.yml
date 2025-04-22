@@ -18,21 +18,11 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '18'
-
-<<<<<<< HEAD
-      - name: Install Dependencies
-        run: npm install --legacy-peer-deps
-
-      - name: Run ESLint (non-blocking)
-        run: |
-          npm run lint || true
-=======
       - name: Install dependencies
         run: npm install --legacy-peer-deps
 
       - name: Run Linter
         run: npm run lint
->>>>>>> af76e84 (Add GitHub Actions CI workflow)
 
       - name: Run Tests
         run: npm test

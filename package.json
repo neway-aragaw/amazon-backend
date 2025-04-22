@@ -29,7 +29,9 @@
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts --openssl-legacy-provider build",
     "proxy": "http://127.0.0.1:4000",
-    "test": "react-scripts test",
+    "test": "jest",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -49,5 +51,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "jest": "^29.7.0"
   }
 }
